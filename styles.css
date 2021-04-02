@@ -142,3 +142,34 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
+.main-currency-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: var(--secondary-font);
+}
+.main-currency-table .currency-table__title {
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
+}
+.currency-table__container {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.currency-table__container table {
+  width: 100%;
+}
+.currency-table__container td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: var(--grey);
+  background-color: var(--white);
+}
