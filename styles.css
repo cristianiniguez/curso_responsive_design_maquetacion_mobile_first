@@ -11,7 +11,7 @@
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
-  --soft-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
   --warm-black: #201e1c;
   --warm-black-plus-1: #282623;
   --grey: #bababa;
@@ -142,53 +142,99 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
-.main-currency-table {
+.main-tables-container {
+  position: relative;
+}
+.main-table {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
   margin: 0 auto;
   font-family: var(--secondary-font);
 }
-.main-currency-table .currency-table__title {
+.main-table .table__title {
   margin-bottom: 12px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
+  text-align-last: left;
+  padding: 12px;
+}
+.main-currency-table .table__title {
   color: var(--bitcoin-orange);
 }
-.currency-table__container {
+.main-comission-table .table__title {
+  color: var(--secondary-blue);
+}
+.table__container {
   width: 90%;
   min-width: 230px;
   max-width: 300px;
   margin: 0 auto;
 }
-.currency-table__container table {
+.table__container table {
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
 }
-.currency-table__container td {
+.table__container td {
   width: 50%;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--white);
+  padding: 12px;
 }
-.currency-table__container td:first-of-type {
+.table__container td:first-of-type {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
   color: #757575;
+  text-align-last: left;
 }
-.currency-table__container i {
+.table__container i {
   display: inline-block;
   font-size: 1.5rem;
   margin-left: 10px;
 }
-.currency-table__container i.fa-level-down-alt {
+.table__container i.fa-level-down-alt {
   color: #f5450d;
 }
-.currency-table__container i.fa-level-up-alt {
+.table__container i.fa-level-up-alt {
   color: #07d635;
+}
+.table__date {
+  width: 190px;
+  height: 30px;
+  margin: 15px auto 0;
+  padding: 8px;
+  border-radius: 8px;
+}
+.main-currency-table .table__date {
+  background-color: var(--soft-orange);
+}
+.main-comission-table .table__date {
+  background-color: var(--soft-blue);
+}
+.table__date p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+.main-tables__btn {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+}
+.main-tables__prev-btn {
+  left: 18px;
+}
+.main-tables__next-btn {
+  right: 18px;
 }
