@@ -164,6 +164,8 @@ main {
 }
 .currency-table__container table {
   width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
 }
 .currency-table__container td {
   width: 50%;
@@ -172,4 +174,21 @@ main {
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--white);
+}
+.currency-table__container td:first-of-type {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
+}
+.currency-table__container i {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.currency-table__container i.fa-level-down-alt {
+  color: #f5450d;
+}
+.currency-table__container i.fa-level-up-alt {
+  color: #07d635;
 }
