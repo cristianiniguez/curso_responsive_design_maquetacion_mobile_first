@@ -29,6 +29,7 @@
 }
 
 html {
+  font-size: 62.5%;
   font-family: var(--primary-font);
 }
 
@@ -42,14 +43,15 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 .header__logo {
   width: 150px;
   height: 24px;
   margin-top: 60px;
   align-self: center;
-  font-size: 1.5em;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: bold;
   color: var(--bitcoin-orange);
   display: flex;
   justify-content: center;
@@ -65,4 +67,17 @@ header {
   height: 218px;
   margin-top: 40px;
   align-self: center;
+}
+.header__title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--white);
+}
+.header__title-container p {
+  margin-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
 }
