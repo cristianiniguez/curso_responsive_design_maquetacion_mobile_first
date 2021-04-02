@@ -1,0 +1,33 @@
+/*
+  1. Positioning
+  2. Box Model
+  3. Typography
+  4. Visual Effects
+  5. Others
+*/
+
+:root {
+  /* colors */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #1a9af7;
+  --warm-black: #201e1c;
+  --warm-black-plus-1: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --white: #fff;
+  /* fonts */
+  --primary-font: 'DM Sans', sans-serif;
+  --secondary-font: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--primary-font);
+}
