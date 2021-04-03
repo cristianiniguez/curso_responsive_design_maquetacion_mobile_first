@@ -347,13 +347,22 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
+.plans-container__slider {
+  display: flex;
+  align-items: center;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
 .plans-container__card {
   position: relative;
+  scroll-snap-align: center;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
   height: 250px;
-  margin: 0 auto;
+  margin: 0 8px;
   padding: 30px 15px 0;
   background-color: var(--white);
   border-radius: 15px;
