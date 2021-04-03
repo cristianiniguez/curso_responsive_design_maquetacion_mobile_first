@@ -83,8 +83,8 @@ header {
 }
 .header__title-container .header__button {
   position: absolute;
-  left: calc(50%);
-  top: calc(100%);
+  left: 50%;
+  top: 100%;
   transform: translate(-50%, -50%);
   display: block;
   padding: 15px;
