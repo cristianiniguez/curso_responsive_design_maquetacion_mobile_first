@@ -238,3 +238,39 @@ main {
 .main-tables__next-btn {
   right: 18px;
 }
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+.product-detail__batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+.product-detail__title {
+  width: 90%;
+  min-width: 288px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+.product-detail__title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--white);
+}
+.product-detail__title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
