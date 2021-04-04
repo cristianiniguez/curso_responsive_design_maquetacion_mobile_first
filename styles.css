@@ -154,7 +154,10 @@ main {
   font-family: var(--secondary-font);
 }
 .main-table .table__title {
-  margin-bottom: 12px;
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  margin: 0 auto 12px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
@@ -349,6 +352,7 @@ main {
 }
 .plans-container__slider {
   display: flex;
+  justify-content: center;
   align-items: center;
   height: 316px;
   overflow-x: scroll;

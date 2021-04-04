@@ -1,0 +1,21 @@
+.main-tables-container {
+  display: flex;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.main-table {
+  display: block !important;
+}
+.main-tables__btn {
+  display: none !important;
+}
+
+.product-cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.product-detail__card {
+  width: 345px;
+}
